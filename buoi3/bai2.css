@@ -1,0 +1,20 @@
+b{
+    color: brown;
+}
+.text1,.text4{
+    color: red;
+}
+.text2{
+    color: blue;
+}
+.text3{
+    color: green;
+}
+.bai2{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-variant: small-caps;
+
+}

@@ -1,0 +1,73 @@
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1280px;
+    margin: auto;
+}
+.control{
+    display: flex;
+    background-color: yellow;
+    width: 1280px;
+}
+.menu{
+    display: flex;
+}
+.menu li {
+    list-style: none;
+    margin: 10px; 
+}
+.menu li a {
+    font-size: 14px;
+    font-weight: bold;;
+    color: black;
+    text-decoration: none;
+}
+.menu li a:hover{
+color: cadetblue;
+}
+.logo img{
+    width: 1280px;
+    height:170px;
+    border-radius: 5px;
+    
+}
+.logo{
+    height: 170px;
+}
+.search{
+    padding-top: 25px;
+    padding-left: 260px;
+}
+input{
+    border-radius: 5px;
+    height: 30px;
+    background-color:blanchedalmond;
+    border: 1px solid white;
+}
+.gt-sub{
+    display: none;
+}
+.menu>li:hover>.gt-sub{
+    display: block;  
+}
+.gt-sub li{
+    border: 1px dashed white;
+    border-radius: 6px;
+}
+.footer img{
+    width: 1280px;
+    height: 110px;
+    border-radius: 7px;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+}
+.colunm img{
+    width: 290px;
+    height: 220px;
+    border-radius: 10px;
+}
+.colunm img:hover{
+    border: 1px dashed orange;
+}

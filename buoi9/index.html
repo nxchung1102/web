@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- form -->
+    <form action="">
+        <input type="text" placeholder="tìm kiếm">
+        <br>
+        <button class="form-group"><img src="img/ht.jfif" alt="" width="10px" height="10px">edit</button>
+        <br>
+        <button class="form-group"><img src="img/ht2.png" alt="" width="10px" height="10px">save</button>
+        <fieldset>
+            <legend>giới tính</legend>
+            <input type="radio" name="gender">nam
+            <input type="radio" name="gender">nữ
+            <input type="radio" name="gender">khác
+        </fieldset>
+        <!-- list-datalist -->
+        <input list="subject">
+        <datalist id="subject">
+            <option>toán</option>
+            <option>lý</option>
+            <option>hóa</option>
+            <option>sinh</option>
+        </datalist>
+        <br>
+        <input type="text" tabindex="1"><br>
+        <input type="text" tabindex="2"><br>
+        <input type="text" tabindex="3"><br>
+        <button disabled>cancel🙈</button>
+        <input type="text" value="chungnx" readonly>
+    </form>
+</body>
+</html>

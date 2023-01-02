@@ -1,0 +1,14 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid  green;
+}
+.width{
+    width: 70px;
+}
+.row3{
+    color: red;
+}
+.row2{
+    background-color: rgb(71, 255, 47);
+}

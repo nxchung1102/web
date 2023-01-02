@@ -1,0 +1,19 @@
+.container{
+    text-align: center;
+}
+.logo img{
+    width: 450px;
+    height: 150px;
+}
+.menu a{
+    text-decoration: none;
+    font-variant: small-caps;
+}
+.menu a:hover{
+    color: aqua;
+    text-decoration: underline;
+    
+}
+.menu a:focus{
+    color: green;
+}

@@ -1,0 +1,116 @@
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1140px;
+    margin: auto;
+}
+.control{
+    display: flex;
+    background-color: yellow;
+    width: 1140px;
+}
+.menu{
+    display: flex;
+}
+.menu li {
+    list-style: none;
+    margin: 10px; 
+}
+.menu li a {
+    font-size: 14px;
+    font-weight: bold;;
+    color: black;
+    text-decoration: none;
+}
+.menu li a:hover{
+color: cadetblue;
+}
+.logo img{
+    width: 1140px;
+    height:170px;
+    border-radius: 5px;
+    
+}
+.logo{
+    height: 170px;
+}
+.search{
+    padding-top: 25px;
+    padding-left: 260px;
+}
+input{
+    border-radius: 5px;
+    height: 30px;
+    background-color:blanchedalmond;
+    border: 1px solid white;
+}
+.gt-sub{
+    display: none;
+}
+.menu>li:hover>.gt-sub{
+    display: block;  
+}
+.gt-sub li{
+    border: 1px dashed white;
+    border-radius: 6px;
+}
+.row{
+    display: flex;
+}
+table img{
+    width: 302px;
+    height: 188px;  
+}
+.gt-nt{
+    color: #1565C0;
+}
+.gt-nt:hover{
+    text-decoration: underline;;
+}
+h4:hover{
+    text-decoration: underline;
+    color: #1565C0;
+}
+h3:hover{
+    text-decoration: underline;
+    color: #1565C0;
+}
+h2 a{
+    text-decoration: none;
+    color: #1565C0;
+}
+h3 a{
+    text-decoration: none;
+    color: black;
+}
+h4 a{
+    text-decoration: none;
+    color: black;
+}
+h2:hover{
+    text-decoration: underline;
+    color: #1565C0;
+}
+.search-sub{
+    border: 1px solid grey;;
+    width: 757px;
+    height: 90px;
+}
+.tt2{
+    margin: 3px;
+    color: white; font-weight: bold; background-color: blue;
+    width:100px;
+}
+.tt2:hover{
+    color: burlywood;
+    border: 1px dashed orange;;
+}
+.tt1{
+    border: 1px solid gray;
+    margin: 10px;
+width: 500px;
+}
+.footer img{
+    width: 1140px;
+    height: 110px;
+    border-radius: 7px;
+    }

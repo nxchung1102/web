@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1304px;
+    margin: auto;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    width: 1304px;
+    height: 139px;
+
+}
+.form-search{
+    line-height: 100px;
+}
+.search:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.logo img{
+    width: 247px;
+    height: 95px;
+}
+.menu{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    width: 1304px;
+    background-color: white;
+}
+.menu li{
+    
+    list-style: none;
+    padding: 40px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.menu li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.news-boss{
+    display: flex;
+    justify-content: space-between;
+}
+.new_content1{
+    width: 674px;
+    height: 409px;
+    padding: 10px;
+}
+.new_content2{
+    width: 674px;
+    height: 409px;
+    padding: 10px;
+}
+.new_row{
+    width: 700px;
+}
+.new_content1 h3 a{
+    text-decoration: none;
+}
+.new_content2 h3 a{
+    text-decoration: none;
+}
+.new_content1 h3 a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.new_content2 h3 a:hover{
+    text-decoration: underline;
+    color: red;
+}
+h2{
+    width: 500px;
+}
+
+.ft{
+    display: flex;
+    justify-content: space-between;
+    width: 1304px;
+}
+
+.sub-menu{
+    display: none;
+
+
+}
+.sub-menu li{
+    background-color: white;
+    border: 1px solid black;
+    border: 0px;
+    padding: 5px;
+}
+.sub-menu li a{
+    color: black;
+}
+.menu>li:hover>.sub-menu{
+display: block;
+position: absolute;
+}

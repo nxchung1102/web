@@ -1,0 +1,47 @@
+ .box1{
+    border:  2px solid red;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.box2{
+    /* border: 2px solid blue ; */
+    width: 160px;
+    height: 60px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.box2 p{
+color: orange;
+text-shadow: 2px 2px 5px red;
+}
+.menu{
+    display: flex;
+
+}
+.menu li{
+    list-style: none;
+    margin: 0px 10px;
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.sub-menu{
+    display: none;
+
+}
+.sub-menu li{
+    background-color: aqua;
+    border: 2px dotted white;
+}
+.sub-menu li a{
+    color: white;
+}
+.menu>li:hover>.sub-menu{
+display: block;
+}

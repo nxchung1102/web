@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1304px;
+    margin: auto;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    width: 1304px;
+    height: 139px;
+    background-color: orange;
+
+}
+.form-search{
+    line-height: 100px;
+}
+.search:hover{
+    text-decoration: underline;
+    color: red;
+}
+.logo img{
+    width: 247px;
+    height: 95px;
+}
+.menu{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    width: 1304px;
+    background-color: blue;
+}
+.menu li{
+    
+    list-style: none;
+    padding: 60px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.menu li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.content,.banner img{
+    width: 1304px;
+    height: 480px;
+}
+h2:hover{
+    text-decoration: underline;
+    color: red;
+}
+.news{
+    display: flex;
+}
+.new1,.image img{
+    width: 474px;
+    height: 409px;
+    padding: 10px;
+}
+.new2,.image img{
+    width: 288px;
+    height: 265px;
+    padding: 10px;
+}
+.new3,.image img{
+    width: 288px;
+    height: 269px;
+    padding: 10px;
+}
+.new2,.new3{
+    width: 719px;
+    height: 295px;
+    border: solid 1px rgb(166, 166, 226);
+    margin: auto;
+    box-shadow: 3px 3px 3px rgb(145, 145, 214);
+    display: flex;
+}
+.new1{
+    width: 524px;
+    height: 615px;
+    border: solid 1px rgb(166, 166, 226);
+    box-shadow: 3px 3px 3px rgb(145, 145, 214);
+
+}
+h3:hover{
+    text-decoration: underline;
+    color: red;
+}
+.news{
+    justify-content: space-between;
+}
+

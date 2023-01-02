@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1280px;
+    margin: auto;
+}
+.bang1{
+    display: flex;
+}
+.row {
+    display: flex;
+}
+.main{
+    display: flex;
+    background-color: yellow;
+    width: 1140px;
+}
+.menu{
+    display: flex;
+}
+.menu li {
+    list-style: none;
+    margin: 10px; 
+}
+.menu li a {
+    font-size: 14px;
+    font-weight: bold;;
+    color: black;
+    text-decoration: none;
+}
+.menu li a:hover{
+color: cadetblue;
+}
+.logo img{
+    width: 1140px;
+    height:170px;
+    border-radius: 5px;
+    
+}
+.logo{
+    height: 170px;
+}
+.banner img{
+    width: 735px;
+    height: 360px;
+    border-radius: 7px;
+}
+.column img{
+    width: 181px;
+    height: 98px;
+    margin: 2px;
+    border-radius: 7px;
+}
+
+.AFO img{
+    width: 730px;
+    height:300px;
+    padding: 4px 0 4px 0;
+    border-radius: 7px;
+}
+.huongdan img{
+    width: 740px;
+    height: 70px;
+    border-radius: 7px;
+    padding-top: 10px;
+}
+.footer img{
+width: 1140px;
+height: 110px;
+border-radius: 7px;
+}
+.footer{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.tintuc-sub li{
+    list-style: none;
+    margin: 20px;
+}
+.tintuc{
+    width: 400px;
+    background-color: bisque;
+    border: 1px ;
+}
+.vb{
+    width: 400px;
+    background-color: antiquewhite;
+    border: 1px ;
+    height: 400px;
+}
+
+.tintuc-sub li a{
+    text-decoration: none;
+    color: black;
+}
+.tintuc-sub li a:hover{
+    border: 1px dashed cornflowerblue;
+}
+.tintuc-sub {
+    width: 340px;
+    height: 120px;
+}
+.tt:hover{
+    text-decoration: underline;
+  color: red;
+}
+.search{
+    padding-top: 25px;
+    padding-left: 260px;
+}
+input{
+    border-radius: 5px;
+    height: 30px;
+    background-color:blanchedalmond;
+    border: 1px dashed white;
+}
+.gt-sub{
+    display: none;
+}
+.menu>li:hover>.gt-sub{
+    display: block;  
+}
+.gt-sub li{
+    border: 1px dashed white;
+    border-radius: 6px;
+}
+.column img:hover{
+    border: 1px dashed orange
+}
+.banner img:hover{
+    border: 1px dashed orange  ;
+}
+

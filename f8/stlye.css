@@ -1,0 +1,43 @@
+/* #first-heading {
+    color: red;
+}
+.second-headin{
+    color: green;
+}
+
+ /*bai2  */
+
+/* h1{
+    color: green;
+}
+
+/* bai3 */
+
+/* :root{
+    --textcolor: red   ;
+}
+h1{
+    --my-color: green;
+    color: var(--my-color);
+}   
+h2{
+    color: var(--textcolor);
+}
+h3{
+    color: var(--textcolor);
+} */
+
+
+/* bai4 */
+
+/* .box{
+    width: 50%;
+    height: 100px;
+    background-color: red  ;
+}
+h1{
+    font-size: 1rem;
+}
+html{
+    font-size: 40px;
+}     */

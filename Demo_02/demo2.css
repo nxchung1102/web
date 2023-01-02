@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    font-size: large;
+}
+.container{
+    width: 1080px;
+    margin: auto;
+}
+.logo{
+text-align: center;
+background-color: greenyellow;
+}
+.logo img{
+    width: 300px;
+    height: 111px;
+}
+.main-nav{
+    display: flex; 
+    padding: 10px;
+    justify-content: space-between;
+    background-color: burlywood;
+}
+.menu{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+}
+.menu li{
+    list-style: none;
+    padding: 10px;
+   
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu li a:hover {
+ text-decoration: underline;
+ background-color: greenyellow;
+
+}
+.click{
+    background-color:  burlywood;
+}
+.click:hover{
+ background-color:  greenyellow;
+}
+.banner img{
+    width: 1080px;
+}
+.news h2:hover{
+    text-decoration: underline;
+    border: 1px solid rgb(106, 106, 187);
+    width: 200px;
+}
+table{
+    border: 1px solid black;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+table{
+    width: 1080px;
+}
+.col1 img{
+    width: 650px;
+    height: auto;
+}
+.col2 img{
+    width: 650px;
+    height: auto;
+}
+table tr td h4:hover{
+    text-decoration: underline;
+    color: greenyellow;
+
+}
+footer{
+    width: 1080px;
+    background-color: yellowgreen;
+    height: 80px;
+    text-align: center;
+}
+footer p {
+    line-height: 80px;
+}
+.text1{
+    padding-left:40px;
+    
+}
+.text2{
+    padding-right: 180px;
+}

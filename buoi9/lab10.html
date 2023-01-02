@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab10.css">
+</head>
+<body>
+    <form action="">
+       <label for="">họ và tên</label><br>
+       <input type="text" class="w"><br>
+       <fieldset>
+        <legend>giới tính:</legend>
+        <input type="radio" name="gender">nam
+        <input type="radio" name="gender">nữ
+       </fieldset>
+       <label for="">ngày sinh</label><br>
+       <input type="date" class="w"><br>
+       <label for="">điểm</label><br>
+       <input type="number" step="0.25" class="color"><br>
+       <label for="">nghề nghiệp:</label><br>
+       <input list="subject" class="w">
+       <datalist id="subject">
+        <option>nông dân</option>
+        <option>công nhân</option>
+        <option>giám đốc</option>
+       </datalist>
+       </list>
+       <fieldset>
+        <legend>sở thích:</legend>
+       <label for=""><input type="checkbox">Thể thao</label>
+       <label for=""> <input type="checkbox">Du lịch</label>
+       <label for=""> <input type="checkbox">Âm nhạc</label>
+        <label for=""><input type="checkbox">Ẩm thực </label>
+       </fieldset><br>
+       <label for="">ghi chú:</label><br>
+       <textarea name="" id="" cols="70" rows="3"></textarea><br>
+       <label for="" ><input type="submit" value="Đăng ký" class="edit"></label>
+       <label for="" ><input type="reset" value="Nhập lại" class="edit"></label>
+    </form>
+</body>
+</html>

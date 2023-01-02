@@ -1,0 +1,88 @@
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1140px;
+    margin: auto;
+}
+.control{
+    display: flex;
+    background-color: yellow;
+    width: 1140px;
+}
+.menu{
+    display: flex;
+}
+.menu li {
+    list-style: none;
+    margin: 10px; 
+}
+.menu li a {
+    font-size: 14px;
+    font-weight: bold;;
+    color: black;
+    text-decoration: none;
+}
+.menu li a:hover{
+color: cadetblue;
+}
+.logo img{
+    width: 1140px;
+    height:170px;
+    border-radius: 5px;
+    
+}
+.logo{
+    height: 170px;
+}
+.search{
+    padding-top: 25px;
+    padding-left: 260px;
+}
+input{
+    border-radius: 5px;
+    height: 30px;
+    background-color:blanchedalmond;
+    border: 1px solid white;
+}
+.gt-sub{
+    display: none;
+}
+.menu>li:hover>.gt-sub{
+    display: block;  
+}
+.gt-sub li{
+    border: 1px dashed white;
+    border-radius: 6px;
+}
+.footer img{
+    width: 1140px;
+    height: 110px;
+    border-radius: 7px;
+    }
+    .row{
+        display: flex ;
+    }
+    .banner img{
+        width: 1140px;
+        height: 453px;
+    }
+    .colunm img{
+        width: 302px;
+        height: 188px;
+        margin: 10px;
+    }
+    h2:hover{
+        color: #1560C0;
+        text-decoration: underline;
+    }
+    h2 a{
+        color:black;
+        text-decoration: none;
+    }
+    h1:hover{
+        color: #1560C0;
+        text-decoration: underline;
+    }
+    h1 a{
+        color: #1560C0;
+        text-decoration: none;;
+    }

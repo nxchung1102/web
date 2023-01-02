@@ -1,0 +1,38 @@
+.text1 {
+    color: red;
+    text-shadow: 0px 0px 5px pink;
+    font-style: italic;
+}
+
+.text2 {
+    color: blue;
+    text-shadow: 0px 0px 5px yellowgreen;
+    font-style: italic;
+}
+
+.text3 {
+    color: green;
+    text-shadow: 0px 0px 5px gray;
+    font-style: italic;
+}
+
+b {
+    color: brown;
+}
+
+.sao {
+
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-weight: 100;
+}
+
+h2 {
+    color: white;
+    text-shadow: 0px 0px 5px red;
+}

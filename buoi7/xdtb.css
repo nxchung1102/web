@@ -1,0 +1,53 @@
+.box1{
+    /* border:  2px solid red; */
+    width: 310px;
+    height: 163px;
+    position: relative;
+}
+
+.box2{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.box2 h2{
+    color: orange;
+    text-shadow: 2px 2px 5px red;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 0px 10px;
+    font-size: small ;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+.menu li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.contact-menu{
+    display: none;
+}
+.contact-menu li{
+    background-color: orange;
+    border: 2px white;
+}
+.contact-menu li a{
+    color: white;
+}
+.menu>li:hover>.contact-menu{
+    display: block;
+}
+.menu{
+    color: white;
+    background-color: orange;
+width: 250px;
+}
+

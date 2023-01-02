@@ -1,0 +1,21 @@
+form{
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.color{
+    background-color: yellow;
+    border-radius: 5px;
+    width: 515px;
+    border-color: yellow;
+}
+.edit{
+    border-radius: 10px ;
+    color: red;
+    box-shadow: inset 0px 0px 6px violet ;
+    border-color: violet;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.w{
+    width: 515px;
+}

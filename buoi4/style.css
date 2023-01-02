@@ -1,0 +1,19 @@
+h1{
+    font-size: 20px;
+    color: red;
+    font-variant: small-caps;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+h2{
+    color: yellow;
+      text-shadow:5px 5px 5px red ;
+}
+ /* text shadow - đổ bóng */
+ p{
+    line-height: 25px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    font-variant: small-caps;
+ }

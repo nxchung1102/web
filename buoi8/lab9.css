@@ -1,0 +1,14 @@
+.form1 label{
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.form2 label{
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.form1 select{
+    width: 300px;
+}
+.form2 select{
+    width: 300px;
+}

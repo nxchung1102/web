@@ -1,0 +1,105 @@
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1280px;
+    margin: auto;
+}
+.control{
+    display: flex;
+    background-color: yellow;
+    width: 1140px;
+}
+.menu{
+    display: flex;
+}
+.menu li {
+    list-style: none;
+    margin: 10px; 
+}
+.menu li a {
+    font-size: 14px;
+    font-weight: bold;;
+    color: black;
+    text-decoration: none;
+}
+.menu li a:hover{
+color: cadetblue;
+}
+.logo img{
+    width: 1140px;
+    height:170px;
+    border-radius: 5px;
+    
+}
+.logo{
+    height: 170px;
+}
+.search{
+    padding-top: 25px;
+    padding-left: 260px;
+}
+input{
+    border-radius: 5px;
+    height: 30px;
+    background-color:blanchedalmond;
+    border: 1px solid white;
+}
+.gt-sub{
+    display: none;
+}
+.menu>li:hover>.gt-sub{
+    display: block;  
+}
+.gt-sub li{
+    border: 1px dashed white;
+    border-radius: 6px;
+}
+.footer img{
+    width: 1140px;
+    height: 110px;
+    border-radius: 7px;
+    }
+
+.new-ngang-1{
+   display: flex;
+}
+.banner img{
+    width: 690px;
+}
+.video{
+    background-color: burlywood;
+        height: 403px;
+}
+.anhTT img{
+    box-shadow: 2px 2px 2px black;
+    width: 450px;
+    margin-left: 100px;
+}
+.anhTT-2{
+    box-shadow: 2px 2px 2px black;
+    width: 450px;
+    margin-left: 400px;
+}
+.new-ngang-2 img:hover{
+    opacity: 0.7;
+}
+.video h2{
+    text-align: center;
+    color: chocolate;
+}
+.vb{
+background-color: tan;
+width: 1110px;
+border-radius: 5px;
+border: 1px dashed rgb(50, 42, 42);
+}
+.vb-2{
+    background-color: aqua;
+    width: 610px;
+    border-radius: 5px; 
+}
+h2{
+    color: rgb(76, 76, 193);
+}
+h2:hover{
+    text-decoration: underline;
+}
